@@ -1,0 +1,298 @@
+.board {
+    position: relative;
+    padding-bottom: 40px;
+    min-height: 350px;
+    overflow: visible;
+  }
+  
+  .board-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 42px;
+    margin-bottom: 28px;
+  }
+  
+  .board-cloud {
+    margin-top: 160px;
+    margin-bottom: -38px;
+    width: 88px;
+    opacity: 0.8;
+  } 
+  
+  .board-title {
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 1.4;
+    margin-bottom: 12px;
+    color: #202632;
+    text-align: center;
+  }
+  
+  .board-subtitle {
+    color: #535353;
+    font-size: 1.2rem;
+    margin-top: 3px;
+    margin-bottom: 64px;
+    letter-spacing: 0.3px;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  
+  .guestbook-form {
+    background: none;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    max-width: 750px;
+    margin: 0 auto 32px auto;
+    gap: 16px;
+  }
+  
+  .input-row {
+    display: flex;
+    gap: 22px;
+    align-self: flex-start;  
+    width: auto;         
+    height: 60px;
+    margin-left: -18px;
+  }
+  
+  .input-nickname,
+  .input-password {
+    width: 220px;       
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 14px 20px;
+    font-size: 1.2rem;
+    box-shadow: 1px 1px 12px rgba(125, 152, 206, 0.2);
+    outline: none;
+    transition: box-shadow 0.2s;
+    text-align: left;   
+  }
+
+  .input-nickname:-webkit-autofill,
+  .input-password:-webkit-autofill {
+    -webkit-box-shadow: 1px 1px 12px rgba(125, 152, 206, 0.2), 0 0 0 1000px #fff inset !important;
+    box-shadow: 1px 1px 12px rgba(125, 152, 206, 0.2), 0 0 0 1000px #fff inset !important;
+    -webkit-text-fill-color: #222 !important;
+    transition: background-color 5000s ease-in-out 0s;
+    font-size: 1.2rem;
+  }
+  
+  
+  .input-nickname:focus,
+  .input-password:focus {
+    box-shadow: 0 0 0 2px #91b6ff, 1px 1px 12px rgba(125, 152, 206, 0.2);
+  }
+
+  
+  .input-content {
+    width: 100%;
+    min-width: 350px;     
+    max-width: 750px;
+    height: 150px;
+    background: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 16px 20px;
+    font-size: 1.2rem;
+    resize: none;
+    box-shadow: 1px 1px 12px rgba(125, 152, 206, 0.2);
+    outline: none;
+    min-height: 90px;
+    margin-top: 0;
+    transition: box-shadow 0.2s;
+    font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+  }
+  
+  
+  .input-content:focus {
+    box-shadow: 0 0 0 2px #91b6ff, 1px 1px 12px rgba(125, 152, 206, 0.2);
+  }
+  
+  .input-nickname::placeholder,
+  .input-password::placeholder,
+  .input-content::placeholder {
+    color: #b2b9c8;
+    font-size: 1.2rem;
+  }
+  
+  .input-error {
+    color: #e74c3c;
+    font-size: 1rem;
+    margin-bottom: 8px;
+    margin-left: 4px;
+  }
+
+  .guestbook-btn {
+    align-self: flex-end;
+    margin-right: -20px;
+    margin-top: 8px;
+    background: linear-gradient(0deg, #72A2FF 0%, #91B6FF 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 70px;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    box-shadow: 0 2px 6px #6e87b4;
+    letter-spacing: 0.03em;
+    transition: background 0.2s;
+  }
+  
+  .guestbook-btn:hover {
+    background: linear-gradient(0deg, #5b8ee8 0%, #7eaaff 100%);
+  }
+  
+  .guestbook-count {
+    max-width: 770px;
+    margin: 0 auto 12px auto;
+    color: #222;
+    font-size: 1.3rem;
+    font-family: 'Pretendard', sans-serif;
+    text-align: left;
+  }
+  
+  .guestbook-count .count {
+    color: #538EFE;
+    font-weight: 600;
+  }
+  
+  .guestbook-divider {
+    max-width: 780px;
+    margin: 0 auto 36px auto;
+    border: none;
+    border-top: 2px solid #d1e0fd;
+  }
+
+  .guestbook-outer {
+    width: 750px;
+    margin: 50px auto 40px auto;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 1px 1px 12px rgba(125, 152, 206, 0.2);
+    padding: 32px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center; 
+  }
+  
+  .guestbook-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    padding: 0 0 0 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 65px;
+  }
+  
+  .guestbook-item {
+    width: auto;
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    min-height: 100px;
+    min-width: 0;
+    margin-bottom: 30px;
+  }
+  
+  
+  .guestbook-avatar-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    width: 90px;
+  }
+  
+  .guestbook-avatar {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    background: #91B6FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .avatar-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  
+  .guestbook-nickname {
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 7px;
+    font-size: 1.08rem;
+    text-align: center;
+  }
+  
+  .guestbook-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .guestbook-message {
+    background: #e7f0ff;
+    border-radius: 8px;
+    padding: 13px 18px;
+    font-size: 1.2rem;
+    color: #3d3f43;
+    line-height: 1.6;
+    white-space: pre-line;
+    position: relative;
+    width: 500px;
+    min-height: 100px;
+    margin-left: 10px;
+  }
+  
+    .speech-bubble-left::before {
+        content: "";
+        position: absolute;
+        left: -16px;
+        top: 18px;
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-right: 16px solid #c4d8fe;
+    }
+  
+  
+  
+  @media (max-width: 700px) {
+    .guestbook-form,
+    .guestbook-list,
+    .guestbook-item,
+    .guestbook-count,
+    .guestbook-divider {
+      max-width: 96vw;
+      width: 96vw;
+    }
+    .guestbook-item { padding: 10px; }
+    .guestbook-avatar { width: 38px; height: 38px; }
+    .avatar-icon.user1, .avatar-icon.user2 { width: 32px; height: 32px; }
+    .guestbook-message { font-size: 0.97rem; padding: 9px 10px; }
+  }
+  

@@ -1,0 +1,130 @@
+.about {
+  position: relative;
+  padding-bottom: 40px;
+  min-height: 350px;
+  overflow: visible;
+}
+
+.about-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 42px;
+  margin-bottom: 28px;
+}
+
+.about-cloud {
+  margin-top: 160px;
+  margin-bottom: -38px;
+  width: 88px;
+  opacity: 0.8;
+}
+
+.about-title {
+  font-family: 'Pretendard', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.4;
+  margin-bottom: 12px;
+  color: #202632;
+  text-align: center;
+}
+
+.about-subtitle {
+  color: #535353;
+  font-size: 1.2rem;
+  margin-top: 3px;
+  margin-bottom: 64px;
+  letter-spacing: 0.3px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 54px;
+  margin-bottom: 100px;
+}
+
+.about-value-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.about-card-imgbox {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 1px 1px 12px rgba(125, 152, 206, 0.2);
+  padding: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 18px;
+  width: 460px;      
+  height: 265px;    
+  transition: width 0.2s, height 0.2s;
+}
+
+.about-img {
+  width: 100%;
+  max-width: 455px; 
+  max-height: 455px; 
+  object-fit: contain;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 2px 10px rgba(83,142,254,0.07);
+  transition: max-width 0.2s, max-height 0.2s;
+}
+
+
+.about-card-descbox {
+  text-align: center;
+  max-width: 560px;
+}
+
+.about-card-descbox h2 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #202632;
+  margin: 18px 0 8px 0;
+  position: relative;
+  display: inline-block;
+}
+
+.about-underline {
+  position: relative;
+  z-index: 1;
+}
+
+.about-underline::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0; bottom: 0;
+  width: 101%;
+  margin-left: -1.5px;
+  height: 12px;
+  background: #BBD2FF;
+  opacity: 0.7;
+  z-index: -1;
+}
+
+.about-card-descbox p {
+  color: #3d3f43;
+  font-size: 1.15rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+  .about-section { gap: 28px; }
+  .about-card-imgbox { width: 92vw; height: auto; }
+  .about-img { max-width: 95vw; }
+  .about-card-descbox { max-width: 95vw; }
+  .about-title { font-size: 1.5rem; }
+}

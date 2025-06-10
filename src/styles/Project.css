@@ -1,0 +1,207 @@
+.project {
+    position: relative;
+    padding-bottom: 40px;
+    min-height: 350px;
+    overflow: visible;
+  }
+  
+  .project-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 42px;
+    margin-bottom: 28px;
+  }
+  
+  .project-cloud {
+    margin-top: 160px;
+    margin-bottom: -38px;
+    width: 88px;
+    opacity: 0.8;
+  }
+  
+  .project-title {
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 1.4;
+    margin-bottom: 12px;
+    color: #202632;
+    text-align: center;
+  }
+  
+  .project-subtitle {
+    color: #535353;
+    font-size: 1.2rem;
+    margin-top: 3px;
+    margin-bottom: 64px;
+    letter-spacing: 0.3px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .project-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 54px;
+    margin-bottom: 100px;
+  }
+  
+  .project-card-imgbox {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 1px 1px 12px rgba(125, 152, 206, 0.2);
+    padding: 32px 18px 24px 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+    width: 500px;
+    min-height: 265px;
+    transition: width 0.2s, height 0.2s;
+  }
+  
+  .project-icon-rows {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .project-icon-row {
+    display: flex;
+    flex-direction: row;
+    gap: 38px;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .project-icon-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .project-icon {
+    width: 52px;
+    height: 52px;
+    object-fit: contain;
+    border-radius: 10px;
+    background: transparent;
+    box-shadow: none;
+    transition: transform 0.15s;
+    cursor: pointer;
+  }
+  .project-icon:hover {
+    transform: scale(1.09);
+    box-shadow: 0 2px 10px rgba(83,142,254,0.11);
+  }
+  
+  .project-icon-tooltip {
+    position: absolute;
+    bottom: -44px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(48, 48, 48, 0.85);
+    color: #fff;
+    padding: 7px 18px;
+    border-radius: 7px;
+    font-size: 1rem;
+    white-space: nowrap;
+    pointer-events: none;
+    z-index: 2;
+    opacity: 1;
+    font-family: 'Pretendard', sans-serif;
+    box-shadow: 0 2px 14px rgba(0,0,0,0.18);
+    transition: opacity 0.2s;
+  }
+
+  .star-icon {
+    width: 23px;
+    height: 23px;
+    vertical-align: middle;
+    margin-right: 3px;
+  }
+
+  
+  .project-detail-section {
+    margin: 40px auto;
+    max-width: 900px;
+    padding: 0 10px;
+  text-align: left;
+  }
+
+  .project-detail-block {
+    margin-bottom: 80px;
+  }
+
+  .project-detail-category {
+    color: #538EFE;
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0px;
+  }
+
+  .project-detail-title {
+    font-weight: 650;
+    font-size: 1.3rem;
+    color: #202632;
+    display: block;       
+    margin-bottom: 3px;  
+  }
+  
+  .project-detail-desc {
+    font-size: 1.2rem;   
+    color: #3d3f43;
+    margin: 0 0 16px 0;   
+    font-family: 'Pretendard', sans-serif;
+    letter-spacing: 0.2px;
+    text-align: left;
+    display: block;    
+    line-height: 1.6;
+  }
+  
+  .project-detail-item {
+    margin-bottom: 20px;
+  }
+
+  .section-title {
+    color: #538EFE;
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0px;
+  }
+
+  .notion-project-list-section {
+    margin: 40px auto 100px auto;
+    max-width: 900px;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  .section-header-block {
+    max-width: 700px;      
+    margin: 0 auto 86px auto;
+    margin-left: 10px;
+    text-align: left;   
+  }
+
+
+  @media (max-width: 700px) {
+    .project-card-imgbox { width: 98vw; min-height: 120px; }
+    .project-icon-row { gap: 18px; }
+    .project-icon-rows { gap: 22px; }
+    .project-icon { width: 36px; height: 36px; }
+    .project-icon-tooltip { font-size: 0.85rem; padding: 5px 12px; bottom: -32px; }
+  }
+  
+  
