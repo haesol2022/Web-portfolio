@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a1288a1.css",
-    "main.js": "/static/js/main.933fc30d.js",
-    "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
-    "static/media/code-react.png": "/static/media/code-react.4616d6581515df275d99.png",
-    "static/media/idea-chalk.png": "/static/media/idea-chalk.b471cf641d5f64d8aa76.png",
-    "static/media/cloud1.png": "/static/media/cloud1.0d009afa268e6a95110a.png",
-    "static/media/notion-github.png": "/static/media/notion-github.d4239b46562862d37330.png",
-    "static/media/cloud2.png": "/static/media/cloud2.0627f64807bff6633a5d.png",
-    "static/media/title_cloud.png": "/static/media/title_cloud.245113ff07e08938871a.png",
-    "static/media/woman1.png": "/static/media/woman1.f8d08a1f00f936c972b9.png",
-    "static/media/woman2.png": "/static/media/woman2.9fdd8dc3c6bbaf2834e2.png",
-    "static/media/react.png": "/static/media/react.219c1b6a937ed42747a6.png",
-    "static/media/css3.png": "/static/media/css3.e43164d2462819ed2f55.png",
-    "static/media/html5.png": "/static/media/html5.da2e8102cb8f129cd383.png",
-    "index.html": "/index.html",
-    "main.1a1288a1.css.map": "/static/css/main.1a1288a1.css.map",
-    "main.933fc30d.js.map": "/static/js/main.933fc30d.js.map",
-    "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
+    "main.css": "/Web-portfolio/static/css/main.1a1288a1.css",
+    "main.js": "/Web-portfolio/static/js/main.0d1ead40.js",
+    "static/js/453.acca0757.chunk.js": "/Web-portfolio/static/js/453.acca0757.chunk.js",
+    "static/media/code-react.png": "/Web-portfolio/static/media/code-react.4616d6581515df275d99.png",
+    "static/media/idea-chalk.png": "/Web-portfolio/static/media/idea-chalk.b471cf641d5f64d8aa76.png",
+    "static/media/cloud1.png": "/Web-portfolio/static/media/cloud1.0d009afa268e6a95110a.png",
+    "static/media/notion-github.png": "/Web-portfolio/static/media/notion-github.d4239b46562862d37330.png",
+    "static/media/cloud2.png": "/Web-portfolio/static/media/cloud2.0627f64807bff6633a5d.png",
+    "static/media/title_cloud.png": "/Web-portfolio/static/media/title_cloud.245113ff07e08938871a.png",
+    "static/media/woman1.png": "/Web-portfolio/static/media/woman1.f8d08a1f00f936c972b9.png",
+    "static/media/woman2.png": "/Web-portfolio/static/media/woman2.9fdd8dc3c6bbaf2834e2.png",
+    "static/media/react.png": "/Web-portfolio/static/media/react.219c1b6a937ed42747a6.png",
+    "static/media/css3.png": "/Web-portfolio/static/media/css3.e43164d2462819ed2f55.png",
+    "static/media/html5.png": "/Web-portfolio/static/media/html5.da2e8102cb8f129cd383.png",
+    "index.html": "/Web-portfolio/index.html",
+    "main.1a1288a1.css.map": "/Web-portfolio/static/css/main.1a1288a1.css.map",
+    "main.0d1ead40.js.map": "/Web-portfolio/static/js/main.0d1ead40.js.map",
+    "453.acca0757.chunk.js.map": "/Web-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a1288a1.css",
-    "static/js/main.933fc30d.js"
+    "static/js/main.0d1ead40.js"
   ]
 }
