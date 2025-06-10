@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Web-portfolio">
       <div className="App">
         <Header />
         <Routes>
