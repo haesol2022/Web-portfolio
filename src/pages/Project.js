@@ -128,7 +128,7 @@ function Project() {
       </div>
       
       <section className="project-section">
-  {/* 아이콘 그리드 */}
+
   <div className="project-card-imgbox">
     <div className="project-icon-rows">
       {iconRows.map((row, rowIdx) => (
@@ -179,11 +179,11 @@ function Project() {
 
 <section className="notion-project-list-section">
   <div className="section-header-block">
-    <h2 className="section-title">
+    <h2 className="section-title-project">
       <img src={starIcon} alt="star" className="star-icon" />
       최근 프로젝트
     </h2>
-    <p className="section-desc">
+    <p className="section-desc-project">
       해커톤, 협업 프로젝트를 기반으로 한 최근 프로젝트 기록입니다.
     </p>
   </div>

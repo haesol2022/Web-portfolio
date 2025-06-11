@@ -73,3 +73,14 @@
   .velog-btn:hover {
     background: linear-gradient(0deg, #5b8ee8 0%, #7eaaff 100%);
   }
+
+  @media (max-width: 480px) {
+    .blog-cloud {margin-top: 80px;}
+    .blog-section { gap: 28px; }
+    .blog-title { font-size: 1.4rem; margin-top: 20px;}
+    .blog-subtitle  { font-size: 0.78rem; margin-top: -5px; margin-bottom: 10px;}
+    .velog-btn {
+      padding: 8px 22px;  
+      font-size: 0.78rem;
+    }
+  }

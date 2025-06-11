@@ -121,10 +121,15 @@
   margin-bottom: 20px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 480px) {
+  .about-cloud {margin-top: 80px;}
   .about-section { gap: 28px; }
-  .about-card-imgbox { width: 92vw; height: auto; }
-  .about-img { max-width: 95vw; }
+  .about-card-imgbox { width: 80vw; height: auto; }
+  .about-img { max-width: 80vw; }
   .about-card-descbox { max-width: 95vw; }
-  .about-title { font-size: 1.5rem; }
+  .about-title { font-size: 1.4rem; margin-top: 20px;}
+  .about-subtitle  { font-size: 0.78rem; margin-top: -5px; margin-bottom: 10px;}
+  .about-card-descbox h2 { font-size: 1.2rem; }
+  .about-card-descbox p { font-size: 0.78rem; }
+  
 }

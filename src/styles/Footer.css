@@ -131,4 +131,16 @@
   .footer-link:hover {
     color: #538EFE;
   }
+
+  @media (max-width: 480px) {
+    .footer-bottom-links, .footer-link {
+      font-size: 13px;
+    }
+
+    .github-icon {
+      margin-bottom: -10px;
+    }
+  }
+  
+  
   

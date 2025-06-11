@@ -278,21 +278,145 @@
         border-bottom: 10px solid transparent;
         border-right: 16px solid #c4d8fe;
     }
-  
-  
-  
-  @media (max-width: 700px) {
-    .guestbook-form,
-    .guestbook-list,
-    .guestbook-item,
-    .guestbook-count,
-    .guestbook-divider {
-      max-width: 96vw;
-      width: 96vw;
+
+
+
+    @media (max-width: 480px) {
+      .board-cloud {margin-top: 80px;}
+      .board-section { gap: 28px; }
+      .board-title { font-size: 1.4rem; margin-top: 20px;}
+      .board-subtitle  { font-size: 0.78rem; margin-top: -5px; margin-bottom: 10px;}
+      .velog-btn {
+        padding: 8px 22px;  
+        font-size: 0.78rem;
+      }
+      .guestbook-form {
+        max-width: 90vw;
+        gap: 8px;
+        padding: 0 2vw;
+      }
+      .input-row {
+        gap: 8px;
+        height: auto;
+        margin-left: 0;
+        flex-direction: row;
+        align-self: stretch;
+      }
+      .input-nickname,
+      .input-password,
+      .input-content {
+        max-width: 100px;
+        font-size: 0.78rem;
+      }
+    
+      .input-nickname::placeholder,
+      .input-password::placeholder,
+      .input-content::placeholder {
+        font-size: 0.78rem;
+      }
+    
+      /* Webkit 브라우저(크롬, 사파리)용 */
+      .input-nickname::-webkit-input-placeholder,
+      .input-password::-webkit-input-placeholder,
+      .input-content::-webkit-input-placeholder {
+        font-size: 0.78rem;
+      }
+    
+      /* Firefox용 */
+      .input-nickname::-moz-placeholder,
+      .input-password::-moz-placeholder,
+      .input-content::-moz-placeholder {
+        font-size: 0.78rem;
+      }
+    
+      /* IE, Edge용 */
+      .input-nickname:-ms-input-placeholder,
+      .input-password:-ms-input-placeholder,
+      .input-content:-ms-input-placeholder {
+        font-size: 0.78rem;
+      }
+    
+      .input-content {
+        min-width: 0;
+        max-width: 85vw;
+        height: 70px;
+        min-height: 50px;
+        padding: 8px 10px;
+        font-size: 0.78rem;
+        border-radius: 7px;
+      }
+      .input-error {
+        font-size: 0.7rem;
+        margin-bottom: 4px;
+        margin-left: 2px;
+      }
+      .guestbook-btn {
+        padding: 7px 10px;
+        font-size: 0.78rem;
+        border-radius: 7px;
+        align-self: stretch;
+        margin-right: 0;
+        margin-top: 4px;
+      }
+      .guestbook-count {
+        font-size: 0.9rem;
+        margin: 0 auto 8px auto;
+      }
+      .guestbook-divider {
+        margin: 0 auto 16px auto;
+        max-width: 98vw;
+      }
+      .guestbook-outer {
+        width: 98vw;
+        padding: 12px 0;
+        margin: 24px auto 20px auto;
+        border-radius: 10px;
+      }
+      .guestbook-list {
+        gap: 12px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 0;
+        padding: 0 2vw;
+      }
+      .guestbook-item {
+        gap: 10px;
+        min-height: 0;
+        margin-bottom: 10px;
+      }
+      .guestbook-avatar-wrap {
+        width: 50px;
+      }
+      .guestbook-avatar {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 4px;
+      }
+      .avatar-img {
+        width: 36px;
+        height: 36px;
+      }
+      .guestbook-nickname {
+        font-size: 0.78rem;
+        margin-bottom: 3px;
+      }
+      .guestbook-message {
+        font-size: 0.78rem;
+        padding: 8px 10px;
+        border-radius: 7px;
+        width: 60vw;
+        min-height: 36px;
+        margin-left: 0;
+      }
+      .speech-bubble-left::before {
+        left: -10px;
+        top: 12px;
+        border-top: 7px solid transparent;
+        border-bottom: 7px solid transparent;
+        border-right: 10px solid #c4d8fe;
+      }
     }
-    .guestbook-item { padding: 10px; }
-    .guestbook-avatar { width: 38px; height: 38px; }
-    .avatar-icon.user1, .avatar-icon.user2 { width: 32px; height: 32px; }
-    .guestbook-message { font-size: 0.97rem; padding: 9px 10px; }
-  }
+  
+  
+
   

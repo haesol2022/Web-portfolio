@@ -166,12 +166,19 @@
     display: block;    
     line-height: 1.6;
   }
+
+  .section-desc-project {
+    font-size: 1.2rem;   
+    color: #3d3f43;
+    font-family: 'Pretendard', sans-serif;
+
+  }
   
   .project-detail-item {
     margin-bottom: 20px;
   }
 
-  .section-title {
+  .section-title-project {
     color: #538EFE;
     font-size: 1.5rem;
     font-weight: 700;
@@ -196,12 +203,47 @@
   }
 
 
-  @media (max-width: 700px) {
-    .project-card-imgbox { width: 98vw; min-height: 120px; }
-    .project-icon-row { gap: 18px; }
-    .project-icon-rows { gap: 22px; }
-    .project-icon { width: 36px; height: 36px; }
-    .project-icon-tooltip { font-size: 0.85rem; padding: 5px 12px; bottom: -32px; }
+  @media (max-width: 480px) {
+    .project-cloud {margin-top: 80px;}
+    .project-section { gap: 28px; }
+    .project-card-imgbox { width: 80vw; height: auto; }
+    .project-title { font-size: 1.4rem; margin-top: 20px;}
+    .project-subtitle  { font-size: 0.78rem; margin-top: -5px; margin-bottom: 10px;}
+    .project-icon {
+      width: 36px;
+      height: 36px;
+    }
+    .project-icon-tooltip {
+      font-size: 0.75rem;
+      padding: 5px 12px;
+    }
+    .project-detail-category {
+      font-size: 1.1rem;
+    }
+    .project-detail-title, .section-title-project {
+      font-size: 0.9rem;
+    }
+    .project-detail-desc, .section-desc-project {
+      font-size: 0.78rem;
+    }
+    .project-detail-item {
+      margin-bottom: 12px;
+    }
+    .notion-project-list-section {
+      margin-bottom: 60px;
+    }
+    .section-header-block {
+      max-width: 100%;
+      margin-left: 15px;
+    }
+    .project-icon-row, .project-icon-rows {
+      gap: 30px;
+    }
+    .project-card-imgbox {
+      width: 300px;
+      min-height: 200px;
+      margin-bottom: -40px;
+    }
+    
   }
-  
   
